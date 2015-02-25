@@ -1,0 +1,29 @@
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+h1 {
+  color: darkred;
+  filter: drop-shadow(16px 16px 10px rgba(126,12,10,0.9));
+}
+
+.topNavDirective {
+	text-align: center;
+}
+
+.jumbotron {
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.messagesBox {
+	padding: 20px;
+}
+
+.currentMessage {
+	width: 20%;
+	text-align: center;
+
+	button {
+		padding-left: 40%;
+		padding-right: 40%;
+	}
+}
