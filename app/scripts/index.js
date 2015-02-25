@@ -15,7 +15,7 @@ $('#chatForm').on('click', '#chatButton', function(evt) {
 	$('input').val('');
 });
 
-fb.on('child_added', function(snap){
+fb.limitToLast(20).on('child_added', function(snap){
 	var content = snap.val();
 
 	addMessages(content.name, content.message, content.time);
